@@ -22,12 +22,14 @@ public class User {
     public User(String username, String password) {
         this.username = username;
         this.password = password;
+        this.firstName = "test";
+        this.lastName = "test";
     }
 
     private String username;
     private String password;
-    private String firstName = "test";
-    private String lastName = "test";
+    private String firstName;
+    private String lastName;
 
     public Integer getId() {
         return id;
